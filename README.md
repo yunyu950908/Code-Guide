@@ -1,15 +1,15 @@
 # 代码规范
 
 ### 提交规范
-| Logo       |KEY           |Description    |
-|--          | ---          |---            |
-| :book:     |Docs          |文档           |
-| :sparkles: |Feat          |新特性         |
-| :bug:      |Fix           |修复bug        |
-| :art:      |Style         |样式修改        |
-| :wrench:   |Refactor      |代码重构        |
-| :recycle:  |Test          |测试            |
-|:building_construction:|Build|构建代码|
+| Logo                    | KEY      | Description |
+| ----------------------- | -------- | ----------- |
+| :book:                  | Docs     | 文档          |
+| :sparkles:              | Feat     | 新特性         |
+| :bug:                   | Fix      | 修复bug       |
+| :art:                   | Style    | 样式修改        |
+| :wrench:                | Refactor | 代码重构        |
+| :recycle:               | Test     | 测试          |
+| :building_construction: | Build    | 构建代码        |
 
 示例：
 ```
@@ -17,23 +17,27 @@
 实例： [:bug:]_修复#13_顶部导航样式坍塌
 ```
 
-### 启动命令
-```
-npm start
-```
-
-### 属性顺序
-1. `class`
-2. `id, name`
+### HTML属性顺序及部分属性的命名方法
+1. `class`——使用`_`分隔（如：`class="xxx_container"`）
+2. `id, name`——使用`_`分隔（同上）
 3. `data-*`
 4. `src, for, type, href, value`
 5. `title, alt`
 6. `role, aria-*`
 
 ### 命名规范
-方法：handle开头
-ts 接口...
-等等
 
-### 目录结构
-...
+- 属性：小写开头&驼峰命名法
+
+
+- 方法：
+  - 事件处理方法：`handle[Sth]`：如`handleClick`
+  - 数据生成方法：`generate[Sth]`
+  - 数据获取方法：
+    - 从接口获取：`fetch[Sth]`
+    - 从其它地方获取：`get[Sth]`
+- 变量：
+  - `var/let`：小写开头&驼峰命名法
+  - `const`：全大写，以`_`分隔
+
+（tips：`boolean`以`is`开头命名。用于控制元素显隐的类名按`isHidden`命名。）
