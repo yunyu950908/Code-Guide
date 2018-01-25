@@ -1,15 +1,15 @@
 # 代码规范
 
 ### 提交规范
-| Logo                    | KEY      | Description |
-| ----------------------- | -------- | ----------- |
-| :book:                  | Docs     | 文档          |
-| :sparkles:              | Feat     | 新特性         |
-| :bug:                   | Fix      | 修复bug       |
-| :art:                   | Style    | 样式修改        |
-| :wrench:                | Refactor | 代码重构        |
-| :recycle:               | Test     | 测试          |
-| :building_construction: | Build    | 构建代码        |
+| Logo                    | abbr     | KEY         | Description |
+| ----------------------- | -------- | ----------- |-------------|
+| :book:                  | `:book:` | Docs        | 文档         |
+| :sparkles:              | `:sparkles:` | Feat    | 新特性       |
+| :bug:                   | `:bug:`  | Fix         | 修复bug      |
+| :art:                   | `:art:`  | Style       | 样式修改      |
+| :wrench:                | `:wrench:` | Refactor  | 代码重构      |
+| :recycle:               | `:recycle:` | Test     | 测试         |
+| :building_construction: | `:building_construction:` | Build    | 构建代码      |
 
 示例：
 ```
